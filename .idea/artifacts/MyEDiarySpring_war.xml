@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyEDiarySpring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MyEDiarySpring</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MyEDiarySpring.war">
+      <element id="artifact" artifact-name="MyEDiarySpring:war exploded" />
+    </root>
+  </artifact>
+</component>
